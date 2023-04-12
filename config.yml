@@ -3,6 +3,8 @@ languageCode: en-us
 title: Michelle Beaulé
 theme: "PaperMod"
 
+enableGitInfo: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -19,7 +21,7 @@ params:
   title: Michelle Beaulé
   description: "A blog about Flutter/Dart, Java, Python, and everything in between"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Michelle
+  author: Michelle Beaulé
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -27,11 +29,11 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -98,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/msbeaule/personal-blog/content"
+    URL: "https://github.com/msbeaule/personal-blog/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
