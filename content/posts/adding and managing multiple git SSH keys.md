@@ -26,11 +26,11 @@ description: "Adding and managing multiple git SSH keys on Windows 10 with Git B
 
 This is how I currently manage multiple SSH keys for Github on a single computer. Thanks to this [gist](https://gist.github.com/oanhnn/80a89405ab9023894df7) for giving me the idea to look into this.
 
-## Creating a SSH key
+## Creating an SSH key
 
 On Windows 10 using Git Bash, navigate to the `~/.ssh` folder, using `cd ~/.ssh`. If this folder doesn't exist, create it using `mkdir ~/.ssh`.
 
-Github recommends (as of writing) running this command [to create a SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) (make sure to replace this example email with your own):
+Github recommends (as of writing) running this command [to create an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) (make sure to replace this example email with your own):
 
 ```shell
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -52,9 +52,9 @@ $ ssh-add ~/.ssh/your_key
 
 Then add the `.pub` version of the key to [Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
-## Auto adding a SSH key when Git Bash starts
+## Auto adding an SSH key when Git Bash starts
 
-Adding a SSH key only works for that session, once you close and reopen Git Bash you'll need to add it again.
+Adding an SSH key only works for that session, once you close and reopen Git Bash you'll need to add it again.
 
 If you want the SSH key to automatically be added each time Git Bash is opened, on Windows 10 open your `.bash_profile` file. From Git Bash you can open this by running `start ~/.bash_profile`. If that doesn't work, open the folder it's in by running `start ~`.
 
