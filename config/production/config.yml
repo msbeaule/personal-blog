@@ -1,0 +1,20 @@
+googleAnalytics: G-D5D3184P0E
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  comments: true
+
+  analytics:
+    google:
+      SiteVerificationTag: "ijlsX4dy5j-sh-SW8RwYkM-dYYSOiaj5jWfDsX5_7Bs"
+    # bing:
+    #   SiteVerificationTag: "XYZabc"
+    # yandex:
+    #   SiteVerificationTag: "XYZabc"

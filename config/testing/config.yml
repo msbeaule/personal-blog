@@ -1,0 +1,6 @@
+buildDrafts: true # want to build drafts on testing server
+buildFuture: false
+buildExpired: false
+
+params:
+  comments: false
