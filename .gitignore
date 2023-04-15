@@ -1,3 +1,6 @@
+# don't include draft posts
+content/posts/drafts/**
+
 # Generated files by hugo
 /public/
 /resources/_gen/
