@@ -1,1 +1,1 @@
-hugo server --environment testing
+hugo server --environment development

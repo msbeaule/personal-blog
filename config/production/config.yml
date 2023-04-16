@@ -9,6 +9,7 @@ buildFuture: false
 buildExpired: false
 
 params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   comments: true
 
   analytics:
