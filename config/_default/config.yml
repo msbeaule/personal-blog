@@ -125,3 +125,18 @@ markup:
     guessSyntax: true
     # lineNos: true
     style: catppuccin-macchiato
+frontmatter:
+  date:
+  - date
+  - publishDate
+  - lastmod
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - lastmod
+  - :git
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date
