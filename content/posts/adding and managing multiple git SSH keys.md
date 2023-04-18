@@ -3,8 +3,10 @@ title: "Adding and Managing Multiple Git SSH Keys"
 date: 2023-04-12
 draft: false
 tags: ["git", "ssh", "github"]
+categories: ["how to"]
 # comments: true
 description: "Adding and managing multiple git SSH keys on Windows 10 with Git Bash and .bash_profile."
+lastmod: 2023-04-13
 
 # weight: 1
 # aliases: [""]

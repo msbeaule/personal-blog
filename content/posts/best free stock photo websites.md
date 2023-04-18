@@ -2,9 +2,11 @@
 title: "The Definitive List of Free Stock Photo Websites"
 date: 2023-04-17
 draft: false
-tags: ["stock photos", "website", "list"]
+tags: ["stock photos", "website"]
+categories: ["lists"]
 # comments: true
 description: "A collection of free stock photo websites and their quirks and photo licenses."
+lastmod: 2023-04-17
 
 # weight: 1
 # aliases: ["/first"]
