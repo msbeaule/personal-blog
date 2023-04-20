@@ -1,0 +1,19 @@
+.post-content > :not(.footnotes) a:not(.footnote-ref):not(.anchor) {
+    display: inline;
+    text-decoration: none;
+    box-shadow: none;
+    transform: translate3d(-50%, -50%, 0);
+    background-size: 306% 100%;
+    background-position: 100% 0;
+    transition: 1s background-position;
+    background-image: linear-gradient(to bottom, var(--theme) 70%, transparent 70%),
+        linear-gradient(to right, rgb(90, 44, 60) 33%, rgb(134, 53, 82) 33%, rgb(128, 50, 77) 66%, #A94064 66%);
+    &:hover{
+        background-position: 0%;
+    }
+}
+
+.dark .post-content > :not(.footnotes) a:not(.footnote-ref):not(.anchor) {
+    background-image: linear-gradient(to bottom, var(--theme) 70%, transparent 70%),
+        linear-gradient(to right, rgb(90, 44, 60) 33%, rgb(134, 53, 82) 33%, rgb(128, 50, 77) 66%, #A94064 66%);
+}
