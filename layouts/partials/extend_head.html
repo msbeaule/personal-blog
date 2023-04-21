@@ -1,4 +1,4 @@
-{{ $sass := resources.Get "scss/link-style.scss" }}
+{{- $sass := (resources.Match "scss/*.scss") | resources.Concat "scss/combined.scss" }}
 {{- if not site.Params.assets.disableFingerprinting }}
 {{ $style := $sass | toCSS | fingerprint }}
 <link crossorigin="anonymous" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" rel="preload stylesheet" as="style">
