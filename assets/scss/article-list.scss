@@ -1,0 +1,15 @@
+:root{
+    --drop-shadow: #b8b8b86e;
+}
+
+:root .dark {
+    --drop-shadow: #00000060;
+}
+
+body.list .main article.post-entry {
+    box-shadow: none;
+    transition: box-shadow ease 0.2s;
+    &:hover {
+        box-shadow: 2px 2px var(--drop-shadow);
+    }
+}
