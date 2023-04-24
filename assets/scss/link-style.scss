@@ -20,14 +20,14 @@
     background-size: 306% 100%;
     background-position: 100% 0;
     transition: 1s background-position;
-    background-image: linear-gradient(to bottom, var(--theme) 90%, transparent 70%),
+    background-image: linear-gradient(to bottom, var(--theme) 92%, transparent 70%),
         linear-gradient(to right, var(--link-underline-color-tertiary) 33%, var(--link-underline-color-secondary) 33%, var(--link-underline-color-secondary) 66%, var(--link-underline-color-main) 66%);
     &:hover{
         background-position: 0%;
     }
     &:not(.anchor) {
         display: inline;
-        padding-bottom: 2px;
+        padding-bottom: 1px;
     }
     code {
         // so the link box-shadow goes all the way across the code section
