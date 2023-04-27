@@ -79,6 +79,8 @@ params:
     #   url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/msbeaule"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/michellebeaule/"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -102,14 +104,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 20
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 10
+      weight: 20
     # - identifier: about me
     #   name: About Me
     #   url: /about/
