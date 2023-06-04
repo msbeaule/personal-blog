@@ -2,6 +2,7 @@ div.notices {
     margin: 2rem 0;
     position: relative;
 }
+
 div.notices p {
     display: block;
     margin-top: 0rem;
@@ -14,7 +15,6 @@ div.notices p:empty {
     display: none;
 }
 
-// TODO: change colours to something more like this: https://getbootstrap.com/docs/4.0/components/alerts/
 
 div.notices .heading {
     color: white;
@@ -30,13 +30,19 @@ div.notices .heading span {
 
 div.notices .icon {
     padding: 0px 7px;
-    // vertical-align: middle;
 }
 
+
+
 div.notices.info .heading {
+    background: rgb(148, 148, 148);
+}
+
+div.notices.warning .heading {
     background: #F0B37E;
 }
-div.notices.warning .heading {
+
+div.notices.danger .heading {
     background: rgb(217, 83, 79);
 }
 
@@ -54,10 +60,16 @@ div.notices .content {
     padding: 10px;
 }
 
+
 div.notices.info .content {
+    background: rgb(224, 224, 224);
+}
+
+div.notices.warning .content {
     background: #FFF2DB;
 }
-div.notices.warning .content {
+
+div.notices.danger .content {
     background: #FAE2E2;
 }
 
