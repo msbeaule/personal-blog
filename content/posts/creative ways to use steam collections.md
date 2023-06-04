@@ -4,7 +4,7 @@ date: 2023-06-03
 draft: false
 tags: ["steam", "organizing"]
 categories: ["how to"]
-description: "How to create and utilize static and dynamic collections for your games in your Steam library."
+description: "How to create and utilize static and dynamic collections for games in your Steam library."
 # lastmod: 
 
 # comments: true
