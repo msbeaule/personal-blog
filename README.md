@@ -12,3 +12,14 @@ Or run the `.bat` file to test it on other devices on the network.
 ```
 linkcheck localhost:1313 --skip-file linkcheck-skip.txt
 ```
+
+
+## Shortcodes
+
+accordion:
+
+```
+{{< details "Summary text here" >}}
+text inside the accordion
+{{< /details >}}
+```
