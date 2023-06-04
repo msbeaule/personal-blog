@@ -1,0 +1,70 @@
+div.notices {
+    margin: 2rem 0;
+    position: relative;
+}
+div.notices p {
+    display: block;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #666;
+}
+
+// multi-line notices have empty paragraphs
+div.notices p:empty {
+    display: none;
+}
+
+// TODO: change colours to something more like this: https://getbootstrap.com/docs/4.0/components/alerts/
+
+div.notices .heading {
+    color: white;
+}
+
+div.notices p.heading {
+    line-height: 36px;
+}
+
+div.notices .heading span {
+    vertical-align: middle;
+}
+
+div.notices .icon {
+    padding: 0px 7px;
+    // vertical-align: middle;
+}
+
+div.notices.info .heading {
+    background: #F0B37E;
+}
+div.notices.warning .heading {
+    background: rgb(217, 83, 79);
+}
+
+div.notices.note .heading {
+    background: #6AB0DE;
+}
+
+div.notices.tip .heading {
+    background: rgb(92, 184, 92);
+}
+
+
+
+div.notices .content {
+    padding: 10px;
+}
+
+div.notices.info .content {
+    background: #FFF2DB;
+}
+div.notices.warning .content {
+    background: #FAE2E2;
+}
+
+div.notices.note .content {
+    background: #E7F2FA;
+}
+
+div.notices.tip .content {
+    background: #E6F9E6;
+}

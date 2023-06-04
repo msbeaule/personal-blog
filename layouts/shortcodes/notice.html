@@ -1,0 +1,23 @@
+<div class="notices {{ .Get 0 }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>
+    <div class="heading">
+        <p class="heading">
+            <span class="material-icons-outlined icon">
+                {{ if eq (.Get 0) "warning" }} warning
+                {{ else if eq (.Get 0 ) "info" }} info
+                {{ else if eq (.Get 0 ) "note" }} edit
+                {{ else if eq (.Get 0 ) "tip" }} lightbulb
+                {{ end }}
+            </span>
+            <span>
+                {{ if eq (.Get 0) "warning" }} Warning
+                {{ else if eq (.Get 0 ) "info" }} Info
+                {{ else if eq (.Get 0 ) "note" }} Note
+                {{ else if eq (.Get 0 ) "tip" }} Tip
+                {{ end }}
+            </span>
+        </p>
+    </div>
+    <div class="content">
+        <p>{{ .Inner | markdownify }}</p>
+    </div>
+</div>
