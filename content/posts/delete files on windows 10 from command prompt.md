@@ -1,11 +1,11 @@
 ---
 title: "Delete Files in Windows Recycle Bin from the Command Line"
-date: 2023-04-18
+date: 2023-04-18T01:05:00
 draft: false
 tags: ["windows", "command prompt", "delete files"]
 categories: ["how to"]
 description: "How to delete files in the recycle bin from the Windows command prompt, and how to quickly and permanently delete thousands of files using the command prompt before it becomes a problem."
-# lastmod: 
+# lastmod:
 
 # comments: true
 # weight: 1

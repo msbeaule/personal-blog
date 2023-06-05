@@ -10,6 +10,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+timeZone: America/Vancouver
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Michelle Beaulé

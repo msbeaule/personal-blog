@@ -1,11 +1,11 @@
 ---
 title: "Creative Ways to Use Collections in Your Steam Library"
-date: 2023-06-03
+date: 2023-06-03T16:35:00
 draft: false
 tags: ["steam", "organizing"]
 categories: ["how to"]
 description: "How to create and utilize static and dynamic collections for games in your Steam library."
-# lastmod: 
+lastmod: 2023-06-03T23:49:00
 
 # comments: true
 # weight: 1
