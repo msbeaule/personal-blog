@@ -53,9 +53,9 @@ First navigate to the parent folder of the folder you want to delete using `cd`:
 cd path/to/parent/folder
 ```
 
-Then run these commands inside the parent folder:
+{{< notice danger >}}Triple check you typed the name of the right folder, because _everything_ inside it will be deleted very quickly. If you need to cancel running a command before too much damage is done, press `ctrl` + `c` multiple times while the command prompt running the command has focus / is selected.{{< /notice >}}
 
-**WARNING**: Triple check you typed the name of the right folder, because _everything_ inside it will be deleted very quickly. If you need to cancel running a command before too much damage is done, press `ctrl` + `c` multiple times, while the command prompt running the command has focus / is selected.
+Then run these commands inside the parent folder:
 
 ```cmd
 del /f /q /s FOLDERNAME > nul
@@ -79,7 +79,7 @@ A breakdown of the second command, `rmdir`:
 - `/q` means quiet mode, so no prompts will be given to you when deleting everything
 - `FOLDERNAME` replace this with the folder you want all subfolders and itself to be deleted
 
-**Note**: the `rmdir` command above can also remove files (not just folders), but it's much slower so that's why we run the `del` command first.
+{{< notice info >}}The `rmdir` command above can also remove files (not just folders), but it's much slower so that's why we run the `del` command first.{{< /notice >}}
 
 Essentially, the first command (`del`) deletes all the files (from the specified folder and all subfolders), while the second command (`rmdir`) deletes all the subfolders and then the specified folder. So you don't have to run the second command if there's no subfolders.
 

@@ -28,7 +28,7 @@ I'm surprised at the amount of free stock photo websites there are. I tend to us
 
 Here is the definitive list of many different free stock photo websites, hopefully these will have the pictures you are looking for.
 
-**Note:** Always check the license for all the photos you use; some you can use however you'd like, but some can only be used for personal use, while others can only be used if you give attribution, but some you can use for both personal and commercial websites.
+{{< notice note >}}Always check the license for all the photos you use; some you can use however you'd like, but some can only be used for personal use, while others can only be used if you give attribution, but some you can use for both personal and commercial websites.{{< /notice >}}
 
 ## General Stock Photos
 
