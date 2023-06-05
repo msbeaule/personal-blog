@@ -80,3 +80,9 @@ div.notices.note .content {
 div.notices.tip .content {
     background: #E6F9E6;
 }
+
+// single line code blocks inside a notice, always use light theme
+
+div.notices code {
+    background: var(--code-bg-light)
+}
