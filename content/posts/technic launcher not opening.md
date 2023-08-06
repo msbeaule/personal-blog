@@ -1,6 +1,6 @@
 ---
 title: "Technic Launcher not opening? Here's two possible fixes"
-date: 2023-08-03T12:15:00
+date: 2023-08-06T12:15:00
 draft: false
 tags: ["minecraft", "technic launcher"]
 categories: ["Troubleshooting"]
