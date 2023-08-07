@@ -133,6 +133,9 @@ markup:
     guessSyntax: true
     # lineNos: true
     style: catppuccin-macchiato
+  goldmark:
+    renderer:
+      hardWraps: true
 frontmatter:
   date:
   - date
