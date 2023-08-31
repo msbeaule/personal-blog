@@ -4,7 +4,7 @@ date: 2023-08-31T16:12:00
 draft: false
 tags: ["steam deck", "distrobox", "linux", "podman"]
 categories: ["how to"]
-description: "Installing Distrobox is very simple and gives you access to many Linux distros right in your terminal, and all the apps you can normally install on them."
+description: "Installing Distrobox is very simple and gives you access to many Linux distros right in the terminal in your Steam Deck's desktop, and all the apps you can normally install on them."
 # lastmod: 
 
 # comments: true
