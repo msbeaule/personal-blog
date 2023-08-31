@@ -1,3 +1,14 @@
+## cloning into new folder / device
+
+Clone it.
+
+Make a new testing.sh with the current IP address.
+
+Pull down the theme with:
+
+`git submodule update --init --recursive`
+
+The `update` gets the most recent version of the theme, I think it can be excluded?
 
 ## run dev server
 
