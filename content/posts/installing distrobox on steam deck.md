@@ -69,11 +69,11 @@ If you want to run an app with a UI, add this to your `~/.bashrc` too:
 xhost +si:localuser:$USER
 ```
 
-## Choosing a Linux distro
+## Choose a Linux distro
 
 View all the [Linux distro images here](https://github.com/89luca89/distrobox/blob/main/docs/compatibility.md#containers-distros), under the "Containers Distros" heading.
 
-## Creating a distro image
+## Create a distro image
 
 For example, if you want to install Arch Linux, you would run this:
 
@@ -91,7 +91,7 @@ And then follow the instructions in the terminal.
 
 For more details on `distrobox create`, [view the docs here](https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-create.md).
 
-## Entering the Linux distro
+## Enter the Linux distro
 
 To see all the distros that you've installed, and their names that you need to run the next command with, use:
 
@@ -114,7 +114,7 @@ distrobox enter debian-12
 Now you should see your terminal slightly change, instead of seeing something like this:
 `(deck@SteamDeck ~)$`, you should see something like this: `deck@debian-12:`.
 
-## Exiting a distro
+## Exit a distro
 
 Once inside a distro image, if you want to exit it but have it still running:
 
@@ -122,7 +122,7 @@ Once inside a distro image, if you want to exit it but have it still running:
 exit
 ```
 
-## Stopping a distro
+## Stop a distro
 
 If you want to stop a distro image, run this command with the same name that you entered it with:
 
