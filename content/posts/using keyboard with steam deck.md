@@ -7,6 +7,8 @@ categories: ["how to"]
 description: "If I plug my keyboard into this, will it work?"
 # lastmod: 
 
+uniqueHash: "8681618584535386"
+
 # comments: true
 # weight: 1
 # aliases: ["/first"]

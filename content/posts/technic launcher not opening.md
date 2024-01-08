@@ -7,6 +7,8 @@ categories: ["Troubleshooting"]
 description: "Uninstalling then reinstalling Java should work, most of the time."
 # lastmod: 
 
+uniqueHash: "8820064123346663"
+
 # comments: true
 # weight: 1
 # aliases: ["/first"]
