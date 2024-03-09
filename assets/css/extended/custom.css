@@ -1,0 +1,14 @@
+:root {
+    --link-color: var(--primary);
+    --link-hover-color: #EC578B;
+}
+
+:root .dark {
+    --link-color: var(--primary);
+    --link-hover-color: #A94064;
+    --link-background-color: #A94064;
+}
+
+main article header h2 {
+    box-shadow: none !important;
+}

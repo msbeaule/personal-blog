@@ -6,15 +6,3 @@
 {{ $style := $sass | toCSS }}
 <link crossorigin="anonymous" href="{{ $style.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- end }}
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.GoogleAnalytics }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.GoogleAnalytics }}');
-</script>
-<!-- End of Global site tag (gtag.js) - Google Analytics -->

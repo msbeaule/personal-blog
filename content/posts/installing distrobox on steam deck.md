@@ -7,6 +7,8 @@ categories: ["how to"]
 description: "Installing Distrobox is straightforward and gives you access to many Linux distros right in the terminal, and all the apps you can normally install on them."
 # lastmod: 
 
+uniqueHash: "3784850054762052"
+
 # comments: true
 # weight: 1
 # aliases: ["/first"]

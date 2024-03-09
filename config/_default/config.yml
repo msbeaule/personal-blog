@@ -1,7 +1,7 @@
 baseURL: https://blog.michellebeaule.ca
 languageCode: en-us
 title: Michelle Beaulé
-theme: "PaperMod"
+theme: "hugo-PaperModX"
 
 enableGitInfo: false
 
@@ -25,7 +25,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -39,6 +39,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+  TocSide: 'right'
 
   assets:
     disableHLJS: true # to disable highlight.js

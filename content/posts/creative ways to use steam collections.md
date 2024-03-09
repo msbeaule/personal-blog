@@ -7,6 +7,8 @@ categories: ["how to"]
 description: "How to create and utilize static and dynamic collections for games in your Steam library."
 lastmod: 2023-06-03T23:49:00
 
+uniqueHash: "2238985260207732"
+
 # comments: true
 # weight: 1
 # aliases: ["/first"]

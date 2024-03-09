@@ -7,6 +7,8 @@ categories: ["how to"]
 description: "How to delete files in the recycle bin from the Windows command prompt, and how to quickly and permanently delete thousands of files using the command prompt before it becomes a problem."
 lastmod: 2023-06-04T23:38:00
 
+uniqueHash: "805420479595349"
+
 # comments: true
 # weight: 1
 # aliases: ["/first"]
