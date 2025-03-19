@@ -15,11 +15,7 @@ disableShare: true
 
 ---
 
-Hi I'm Michelle, and I'm a freelance Flutter/Dart and Java mobile app developer.
-
-If you have an idea for a mobile app, I might be able to make it! Let's talk:
-
-msbeaule@gmail.com | [LinkedIn](https://www.linkedin.com/in/michellebeaule/)
+Hi I'm Michelle, I like to play video games and tinker with computers in my spare time.
 
 ---
 

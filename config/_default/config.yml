@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: Michelle Beaulé
-    subtitle: "This is subtitle"
+    subtitle: "Welcome to my blog."
     # imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
@@ -73,15 +73,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi, I'm Michelle"
-    Content: I'm a freelance app developer who uses Flutter/Dart and Java, but I'll use Python for almost everything else.
+    Content: I can ramble about a lot of things, given the chance.
 
   socialIcons:
     # - name: twitter
     #   url: "https://twitter.com/"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/msbeaule"
+    #- name: github
+    #  url: "https://github.com/msbeaule"
     - name: linkedin
       url: "https://www.linkedin.com/in/michellebeaule/"
 
